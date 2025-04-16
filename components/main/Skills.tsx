@@ -8,7 +8,7 @@ const Skills = () => {
     <section 
     id='skills'
     className='flex flex-col items-center justify-center
-    gap-3 h-full relative overflow-hidden py-20'
+    gap-3 h-full relative overflow-hidden pt-20'
     style={{
         transform:'scale(0.9)'
     }}
@@ -64,9 +64,9 @@ const Skills = () => {
         </div>
         <div className='w-full h-full absolute'>
             <div className='w-full h-full z-[-10] opacity-30
-            flex absolute items-center justify-center bg-cover'>
+            flex absolute items-center justify-center bg-contain'>
                 <video 
-                    className='w-full h-auto'
+                    className='w-full h-[800px]'
                     preload='false'
                     playsInline
                     loop
