@@ -251,7 +251,51 @@ export const Skill_data = [
     },
   ];
   
-  
+  export const myProjects = [
+    {
+      src: '/desynLandingPage.png',
+      title: 'Desyn',
+      description: 'Desyn,a next-gen collaborative design and brainstorming platform built for creators, teams, and innovators. Whether you are sketching out an idea, building a UI concept, or collaborating in real-time, our powerful feature set ensures you stay productive, creative, and connected.',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/desyn', // Assign an empty string or a valid URL
+      hrefLive: 'https://desyn.vercel.app/', // Assign an empty string or a valid URL
+    },
+    {
+      src: '/brainwaveLandingPage.png',
+      title: 'Brainwave',
+      description: 'Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard.',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/brainwave', // Assign an empty string or a valid URL
+      hrefLive: 'https://brainwave-six-brown.vercel.app/', // Assign an empty string or a valid URL
+    },
+    {
+      src: '/redefineGamingLandingPage.png',
+      title: 'redefineGaming',
+      description: 'A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling.',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/redefineGaming', // Assign an empty string or a valid URL
+      hrefLive: 'https://redefine-gaming-olive.vercel.app/', // Assign an empty string or a valid URL
+    },
+    {
+      src: '/reelsProLandingPage.png',
+      title: 'ReelsPro',
+      description: 'ReelsPro is a dynamic web application that allows users to upload, view, and interact with short video reels shared by other users. The platform is designed to create an engaging experience where creativity thrives, fostering a community-driven environment for content creators and viewers alike.',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/reelsPro', // Assign an empty string or a valid URL
+      hrefLive: 'https://reelspro-phi.vercel.app/', // Assign an empty string or a valid URL
+    },
+    {
+      src: '/mysteryMessageLandingPage.png',
+      title: 'MysteryMessage',
+      description: 'Mystery Message is a modern web application that allows users to send and receive anonymous messages. Built with Next.js, it prioritizes user experience, security, and performance. The platform is designed with a sleek UI using Tailwind CSS, secure NextAuth authentication, and efficient server-side rendering (SSR).',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/mystery_message', // Assign an empty string or a valid URL
+      hrefLive: 'https://mystery-message-olive-psi.vercel.app/', // Assign an empty string or a valid URL
+    },
+    {
+      src: '/appleLandingPage.png',
+      title: 'Apple iphone 15',
+      description: 'This is a clone of Apple iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.',
+      hrefGithub: 'https://github.com/Sankalp20Tiwari/apple', // Assign an empty string or a valid URL
+      hrefLive: 'https://appleiphone-six.vercel.app/', // Assign an empty string or a valid URL
+    },
+
+  ] 
   
   
   
