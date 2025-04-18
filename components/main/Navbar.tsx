@@ -9,8 +9,15 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
+          className="h-auto w-auto flex flex-row items-center gap-3"
         >
+                    <Image
+                      src="/profile-pic.jpg" 
+                      alt="Sankalp Tiwari"
+                      width={400}
+                      height={400}
+                      className="rounded-full shadow-lg size-10 object-cover"
+                    />
             <span className="text-gray-800 font-bold md:text-white text-xl sm:text-2xl">
                 Sankalp Tiwari
             </span>
