@@ -44,6 +44,9 @@ const Navbar = () => {
             <Link href={'https://www.linkedin.com/in/sankalp20tiwari/'}>
                 <Image src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg' alt='github' width={30} height={30} className='cursor-pointer' />           
             </Link>
+            <Link href={'https://drive.google.com/file/d/1Thw-VKZtVuZpj_KHKZxwDrVXh95CxPEX/view?usp=sharing'}>
+                <Image src='/resume.png' alt='resume' width={30} height={30} className='cursor-pointer size-8' />           
+            </Link>
 
         </div>
       </div>
