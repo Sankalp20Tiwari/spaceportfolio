@@ -219,12 +219,6 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
       skill_name: "Docker",
       Image: "/docker.webp",
       width: 70,
