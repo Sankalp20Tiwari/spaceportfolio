@@ -22,7 +22,7 @@ const AboutMe = () => {
           About Me
         </h2>
         <p className="mt-6 text-gray-300 text-lg leading-8 max-w-[600px]">
-          Hi, I'm <span className="text-purple-400 font-semibold">Sankalp Tiwari</span>,
+          Hi, I&apos;m <span className="text-purple-400 font-semibold">Sankalp Tiwari</span>,
           a passionate and dedicated Full Stack Developer with a strong
           background in building scalable web applications and secure network
           systems. I specialize in creating seamless user experiences with
@@ -30,7 +30,7 @@ const AboutMe = () => {
         </p>
         <p className="mt-4 text-gray-400 text-base max-w-[600px]">
           From designing intuitive UIs to implementing intelligent security
-          solutions, I enjoy solving real-world problems through code. I'm always
+          solutions, I enjoy solving real-world problems through code. I&apos;m always
           eager to learn and adapt to new technologies to build efficient and
           impactful digital experiences.
         </p>
