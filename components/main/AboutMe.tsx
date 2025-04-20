@@ -16,6 +16,7 @@ const AboutMe = () => {
         initial={{ x: -100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <h2 className="text-[40px] sm:text-[60px] font-bold bg-gradient-to-r from-purple-500 to-cyan-500 text-transparent bg-clip-text">
           About Me
@@ -39,7 +40,7 @@ const AboutMe = () => {
           rel="noopener noreferrer"
           className="mt-6 inline-block px-6 py-3 button-primary hover:bg-purple-700 text-white rounded-full transition duration-300"
         >
-          Let's Connect
+          Let&apos;s Connect
         </a>
       </motion.div>
 
@@ -49,9 +50,10 @@ const AboutMe = () => {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
+        viewport={{ once: true, amount: 0.5 }}
       >
         <Image
-          src="/profile-pic.jpg" // replace with your actual image path
+          src="/profile-pic.jpg"
           alt="Sankalp Tiwari"
           width={400}
           height={400}
@@ -63,3 +65,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
