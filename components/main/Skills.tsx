@@ -1,83 +1,55 @@
+'use client'
+
 import { Backend_skill, Frontend_skill, Full_stack, Other_skill } from '@/constants'
 import React from 'react'
 import SkillDataProvider from '../sub/SkillDataProvider'
 import SkillText from '../sub/SkillText'
 
 const Skills = () => {
+  const skillSections = [
+    { title: 'Frontend', data: Frontend_skill },
+    { title: 'Backend', data: Backend_skill },
+    { title: 'Full Stack', data: Full_stack },
+    { title: 'Other Skills', data: Other_skill }
+  ];
+
   return (
     <section 
-    id='skills'
-    className='flex flex-col items-center justify-center
-    gap-3 h-full relative overflow-hidden pt-20'
-    style={{
-        transform:'scale(0.9)'
-    }}
+      id='skills'
+      className='flex flex-col items-center justify-center gap-6 relative overflow-hidden pt-20 px-4 sm:px-10'
+      style={{ transform: 'scale(0.95)' }}
     >
-        <SkillText />
-        <div className='flex flex-row justify-around flex-wrap
-        mt-5 gap-5 items-center'>
-            {Frontend_skill.map((image, index) => (
-                <SkillDataProvider 
-                key={index}
-                src={image.Image}
-                width={image.width}
-                height={image.height}
-                index={index}
-                />
-            ))}
+      <SkillText />
+
+      {skillSections.map((section, secIndex) => (
+        <div key={secIndex} className='flex flex-wrap justify-center gap-5 mt-6 z-10'>
+          {section.data.map((image, index) => (
+            <SkillDataProvider
+              key={index}
+              src={image.Image}
+              width={image.width}
+              height={image.height}
+              index={index}
+            />
+          ))}
         </div>
-        <div className='flex flex-row justify-around flex-wrap
-        mt-5 gap-5 items-center'>
-            {Backend_skill.map((image, index) => (
-                <SkillDataProvider 
-                key={index}
-                src={image.Image}
-                width={image.width}
-                height={image.height}
-                index={index}
-                />
-            ))}
-        </div>
-        <div className='flex flex-row justify-around flex-wrap
-        mt-5 gap-5 items-center'>
-            {Full_stack.map((image, index) => (
-                <SkillDataProvider 
-                key={index}
-                src={image.Image}
-                width={image.width}
-                height={image.height}
-                index={index}
-                />
-            ))}
-        </div>
-        <div className='flex flex-row justify-around flex-wrap
-        mt-5 gap-5 items-center'>
-            {Other_skill.map((image, index) => (
-                <SkillDataProvider 
-                key={index}
-                src={image.Image}
-                width={image.width}
-                height={image.height}
-                index={index}
-                />
-            ))}
-        </div>
-        <div className='w-full h-full absolute'>
-            <div className='w-full h-full z-[-10] opacity-30
-            flex absolute items-center justify-center bg-contain'>
-                <video 
-                    className='w-full h-[800px]'
-                    preload='false'
-                    playsInline
-                    loop
-                    muted
-                    autoPlay
-                    src='/cards-video.webm'
-                />
-            </div>
-        </div>
+      ))}
+
+      {/* Background Video */}
+      <div className='absolute inset-0 z-0 flex items-center justify-center opacity-20 pointer-events-none'>
+        <video 
+          className='w-full h-[800px] object-cover'
+          preload='false'
+          playsInline
+          loop
+          muted
+          autoPlay
+          src='/cards-video.webm'
+        />
+      </div>
     </section>
   )
 }
 
-export default Skills
+export default Skills;
+
