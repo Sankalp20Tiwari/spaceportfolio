@@ -1,36 +1,189 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sankalp Tiwari
 
-## Getting Started
+## Overview
+Welcome to My Portfolio – a sleek, visually immersive developer portfolio crafted for the modern frontend enthusiast. Designed with aesthetic flair and technical precision, SpacePortfolio is your personal cosmic showcase, helping you stand out with stellar design and interactivity.
 
-First, run the development server:
+Built using cutting-edge technologies like Next.js, Tailwind CSS, Framer Motion, and React libraries, this project highlights your projects, skills, and personal story in a responsive and visually engaging format.
+
+From animated backgrounds to modular component architecture, this template provides a professional space-themed experience to make your online presence unforgettable.
+## 🎨 Preview
+![MySite](public/landingPage.png)
+
+## 🚀 Features
+✅ Hero Section with Dynamic Background 🌌
+Eye-catching starry background with animated hero text and call-to-action.
+
+✅ Responsive Navbar 🛰️
+Sticky, responsive navbar with smooth scrolling and section highlights.
+
+✅ About Me 👨‍🚀
+Concise and animated introduction about you and your background.
+
+✅ Projects Showcase 🚀
+Modular project cards with animations and interactive hover effects.
+
+✅ Skills Display 🛠️
+Skill bubbles with subtle entrance animations and clear categories.
+
+✅ Footer Section 📫
+Contact and social links housed in a clean, minimal footer.
+
+✅ Fully Modular Components 🧱
+All sections built with reusable and maintainable React components.
+
+✅ Framer Motion Animations ✨
+Smooth transitions and entrance animations to elevate the visual experience.
+
+✅ Responsive Design 📱
+Seamless across all devices – mobile, tablet, and desktop.
+
+## 🖥️ Live Demo
+Check out the live version of my site here: [Live Site](https://developersankalp.vercel.app/)
+
+---
+
+## 🤸 Quick Start
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Sankalp20Tiwari/spaceportfolio.git
+cd spaceportfolio
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Running the Project**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## ⚙️ Tech Stack
+- Next.js – React framework for SSR and static sites
 
-To learn more about Next.js, take a look at the following resources:
+- React.js – Core frontend library
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Tailwind CSS – Utility-first styling framework
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Framer Motion – Declarative animation library
 
-## Deploy on Vercel
+- Lucide React – Icon set
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Heroicons & React Icons – Additional icon packs
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📂 Project Structure
+```
+/spaceportfolio
+├── app/
+│   ├── layout.tsx          # Root layout
+│   ├── page.tsx            # Main page
+│   ├── globals.css         # Global styles
+│   └── favicon.ico         # Site icon
+├── components/
+│   ├── main/               # Main sections (Hero, AboutMe, Projects, etc.)
+│   └── sub/                # Sub-components (ProjectCard, SkillText, etc.)
+├── constants/              # Static content for skills, projects, etc.
+├── utils/                  # Utility files (e.g., Framer Motion configs)
+├── public/                 # Static assets (images, icons, etc.)
+├── tailwind.config.ts      # Tailwind CSS config
+├── package.json            # Project manifest
+└── tsconfig.json           # TypeScript configuration
+```
+
+---
+
+## 🤝 Contributing
+We welcome contributions! To contribute:
+1. **Fork** the repository
+2. **Create a new branch** (`git checkout -b feature-name`)
+3. **Commit your changes** (`git commit -m 'Add feature'`)
+4. **Push to your branch** (`git push origin feature-name`)
+5. Create a **Pull Request** 🚀
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
